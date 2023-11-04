@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px var(--lightGrey) solid;
+}
+
+.header_wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}

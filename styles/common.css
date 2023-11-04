@@ -1,0 +1,38 @@
+:root {
+  --lightGrey: #d9d9d9;
+  --black: #000000;
+  --orange: #ff9c00;
+  --white: #ffffff;
+}
+
+html {
+  font-size: 14px;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.wrapper {
+  margin: 25px 0;
+}
