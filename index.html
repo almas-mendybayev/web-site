@@ -3,37 +3,40 @@
   <head>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header/header.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web site</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header_logo-wrapper">
-        <a href="/"><img src="images/header_logo.svg" alt="logo" /></a>
-      </div>
-      <div class="header_menu-wrapper">
-        <ul class="header_menu">
-          <li class="header_menu-item">
-            <a class="header_menu-item_link" href="/"> Home </a>
-          </li>
-          <li class="header_menu-item">
-            <a class="header_menu-item_link" href="/"> Shop Online </a>
-          </li>
-          <li class="header_menu-item">
-            <a class="header_menu-item_link" href="/"> What’s New </a>
-          </li>
-          <li class="header_menu-item">
-            <a class="header_menu-item_link" href="/"> Contact </a>
-          </li>
-          <li class="header_menu-item">
-            <a class="header_menu-item_link" href="/"> About us </a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <div class="container">
+    <div class="container">
+      <header class="header">
+        <div class="header_wrapper">
+          <div class="header_logo-wrapper">
+            <a href="/"><img src="images/header_logo.svg" alt="logo" /></a>
+          </div>
+          <div class="header_menu-wrapper">
+            <ul class="header_menu">
+              <li class="header_menu-item">
+                <a class="header_menu-item_link" href="/"> Home </a>
+              </li>
+              <li class="header_menu-item">
+                <a class="header_menu-item_link" href="/"> Shop Online </a>
+              </li>
+              <li class="header_menu-item">
+                <a class="header_menu-item_link" href="/"> What’s New </a>
+              </li>
+              <li class="header_menu-item">
+                <a class="header_menu-item_link" href="/"> Contact </a>
+              </li>
+              <li class="header_menu-item">
+                <a class="header_menu-item_link" href="/"> About us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
         <!-- Main content section -->
         <div class="main_content_wrapper">
           <div class="main_content">
@@ -373,8 +376,7 @@
           </div>
         </div>
         <!-- Footer -->
-      </div>
-    </main>
-    <footer></footer>
+      </main>
+    </div>
   </body>
 </html>
