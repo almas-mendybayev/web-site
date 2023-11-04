@@ -1,0 +1,22 @@
+.categories_items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+  }
+  
+  .category_item-wrapper {
+    border-radius: 5px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+  }
+  
+  .category_item-name {
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+  }
+  
