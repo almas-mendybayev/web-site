@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/header/header.css" />
+    <link rel="stylesheet" href="styles/main_section/main_section.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web site</title>
@@ -39,23 +40,32 @@
       <main>
         <!-- Main content section -->
         <div class="main_content_wrapper">
-          <div class="main_content">
-            <h2 class="main_content_title">Lorem ipsum dolor sit amet.</h2>
-            <p class="main_content_text">
-              Find the Best Products with
-              <span><strong>Reliability</strong></span>
-            </p>
-            <form
-              action="GET"
-              class="main_content-search_form main_search-form"
-            >
-              <input
-                type="text"
-                class="main_search-form"
-                placeholder="Search Here Shop or Product"
-              />
-              <button class="main_search-form_button">Search</button>
-            </form>
+          <!-- <img
+            class="main_content-image"
+            src="images/main-section/main-bg.jpg"
+            alt="main-bg-image"
+          /> -->
+          <div
+            class="main_content"
+            style="background-image: url(images/main-section/main-bg.jpg)"
+          >
+            <div class="main_content-info">
+              <h2 class="main_content_text">
+                Find the Best Products with
+                <span><strong>Reliability</strong></span>
+              </h2>
+              <form
+                action="GET"
+                class="main_content-search_form main_search-form"
+              >
+                <input
+                  type="text"
+                  class="main_search-form_input"
+                  placeholder="Search Here Shop or Product"
+                />
+                <button class="main_search-form_button">Search</button>
+              </form>
+            </div>
           </div>
         </div>
         <!-- Main content section -->
