@@ -28,3 +28,7 @@ ul {
 h2 {
   font-size: 36px;
 }
+
+.wrapper {
+  margin: 25px 0;
+}
