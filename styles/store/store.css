@@ -1,0 +1,29 @@
+.stores_items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.store_icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--middleGrey);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.store_item {
+  display: flex;
+  gap: 20px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 13px;
+  padding-bottom: 10px;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px var(--lightGrey);
+}
+
+.store_name {
+  font-size: 16px;
+}
