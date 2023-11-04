@@ -1,0 +1,35 @@
+.tranding_products-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.tranding_products-item img {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 100%;
+}
+
+.tranding_product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--darkGrey);
+  width: 100%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.tranding_product-category_name {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.tranding_product-link {
+  background-color: var(--lightGrey);
+  padding: 15px 20px;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
